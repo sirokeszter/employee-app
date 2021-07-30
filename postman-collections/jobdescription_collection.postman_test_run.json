@@ -1,0 +1,247 @@
+{
+	"id": "96aaa151-3eca-451e-8443-75eba35aa6f3",
+	"name": "jobdescription_collection",
+	"timestamp": "2021-07-30T14:48:30.154Z",
+	"collection_id": "0-c9930a0f-f9c0-44a3-b202-95ff7e728b14",
+	"folder_id": 0,
+	"environment_id": "1dd7472e-d07c-4a36-b7ae-454c97c42b35",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "94e39b22-6402-48cb-8325-373236c6cd39",
+			"name": "jobdescription",
+			"url": "http://localhost:8888/jobdescriptions",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "450d538a-a03a-4e54-83e6-04e062890586",
+			"name": "new jobdescriptions",
+			"url": "http://localhost:8888/jobdescriptions",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0752df70-a229-4132-8c53-484b2d42b1e6",
+			"name": "new jobdescriptions by id",
+			"url": "http://localhost:8888/jobdescriptions/1",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0fe353c3-b8d9-4950-b8dc-6e07aa0e497b",
+			"name": "change jobdescriptions by id",
+			"url": "http://localhost:8888/jobdescriptions/1",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Title check": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Title check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"Title check": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b3c08baa-fe91-43df-82a2-7e267df9afdc",
+			"name": "changed jobdescriptions by id",
+			"url": "http://localhost:8888/jobdescriptions/1",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Title check": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Title check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Title check": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "aeb40de3-1c0c-43ea-8330-82cd0ddf2e16",
+			"name": "changed jobdescriptions by id",
+			"url": "http://localhost:8888/jobdescriptions/1",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "da7d5e7f-9c64-4cde-a082-ae983bc58f72",
+			"name": "jobdescription",
+			"url": "http://localhost:8888/jobdescriptions",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 190,
+	"collection": {
+		"requests": [
+			{
+				"id": "94e39b22-6402-48cb-8325-373236c6cd39",
+				"method": "GET"
+			},
+			{
+				"id": "450d538a-a03a-4e54-83e6-04e062890586",
+				"method": "POST"
+			},
+			{
+				"id": "0752df70-a229-4132-8c53-484b2d42b1e6",
+				"method": "GET"
+			},
+			{
+				"id": "0fe353c3-b8d9-4950-b8dc-6e07aa0e497b",
+				"method": "PUT"
+			},
+			{
+				"id": "b3c08baa-fe91-43df-82a2-7e267df9afdc",
+				"method": "GET"
+			},
+			{
+				"id": "aeb40de3-1c0c-43ea-8330-82cd0ddf2e16",
+				"method": "DELETE"
+			},
+			{
+				"id": "da7d5e7f-9c64-4cde-a082-ae983bc58f72",
+				"method": "GET"
+			}
+		]
+	}
+}

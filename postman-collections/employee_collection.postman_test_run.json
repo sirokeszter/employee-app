@@ -1,0 +1,201 @@
+{
+	"id": "d1520f40-2a4d-485f-91c6-c1c03e073f52",
+	"name": "employee_collection",
+	"timestamp": "2021-07-30T14:32:15.046Z",
+	"collection_id": "0-8549891b-09ad-4ca9-9ac3-ff797ba847ca",
+	"folder_id": 0,
+	"environment_id": "1dd7472e-d07c-4a36-b7ae-454c97c42b35",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0416a0de-6263-4a43-ab3f-74443c18bcb5",
+			"name": "employees",
+			"url": "http://localhost:8888/employees",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bc13efad-c282-489f-af61-b8d679e53a76",
+			"name": "new jobdescriptions",
+			"url": "http://localhost:8888/jobdescriptions",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "553e0cf8-9ede-451e-bcad-d27341b2b5ab",
+			"name": "new employees",
+			"url": "http://localhost:8888/employees",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27ef3da4-4b5e-40a2-8169-672b1321b292",
+			"name": "change employee by id",
+			"url": "http://localhost:8888/employees/3",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a913dfd4-a7a3-49c3-a523-762c933966ae",
+			"name": "changed employee by id",
+			"url": "http://localhost:8888/employees/3",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Username check": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Username check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Username check": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eaa15ec0-47af-4f75-bc37-c268e13f143c",
+			"name": "changed employee by id",
+			"url": "http://localhost:8888/employees/3",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				23
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 195,
+	"collection": {
+		"requests": [
+			{
+				"id": "0416a0de-6263-4a43-ab3f-74443c18bcb5",
+				"method": "GET"
+			},
+			{
+				"id": "bc13efad-c282-489f-af61-b8d679e53a76",
+				"method": "POST"
+			},
+			{
+				"id": "553e0cf8-9ede-451e-bcad-d27341b2b5ab",
+				"method": "POST"
+			},
+			{
+				"id": "27ef3da4-4b5e-40a2-8169-672b1321b292",
+				"method": "PUT"
+			},
+			{
+				"id": "a913dfd4-a7a3-49c3-a523-762c933966ae",
+				"method": "GET"
+			},
+			{
+				"id": "eaa15ec0-47af-4f75-bc37-c268e13f143c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
